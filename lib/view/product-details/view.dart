@@ -109,6 +109,9 @@ class _ProductDetailsState extends State<ProductDetails> {
                          SizedBox(
                            height: 32.height,
                          ),
+                         Divider(
+                           color: AppColors.lightGrey,
+                         ),
 
                          Row(
                            children: [
@@ -147,6 +150,10 @@ class _ProductDetailsState extends State<ProductDetails> {
                  SizedBox(
                    height: 32.height,
                  ),
+                 Divider(
+                   color: AppColors.lightGrey,
+                 ),
+
                  Expanded(
                    child: Row(
                      children: [
@@ -184,6 +191,9 @@ class _ProductDetailsState extends State<ProductDetails> {
                          SizedBox(
                            height: 32.height,
                          ),
+                             Divider(
+                               color: AppColors.lightGrey,
+                             ),
                              Expanded(
                                child: Row(
                                    children: [
