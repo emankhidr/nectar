@@ -1,4 +1,6 @@
 import 'package:courses/Core/extentions/double.dart';
+import 'package:courses/Core/extentions/string.dart';
+import 'package:courses/Widget/app/product-card.dart';
 import 'package:flutter/material.dart';
 
 import '../../Core/utils/colors.dart';
@@ -18,15 +20,24 @@ class SectionTitle  extends StatelessWidget {
             fontWeight: FontWeight.w600,
 
           ),
+          
+          
+        ),
+   
+
+    Image.asset(''
+        'heart 1'.assetPNG,
+      width: 24.width,
+      height: 24.height,
+      
+    ),
+        SizedBox(
+          height: 4.height,
         ),
 
-        AppText(title: ' sea all' ,
-          fontSize: 16.height,
 
-          color: AppColors.primary,
-
-        ),
       ],
+      
     );
   }
 }

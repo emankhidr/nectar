@@ -13,7 +13,6 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -125,3 +124,4 @@ class HomeView extends StatelessWidget {
     );
   }
 }
+

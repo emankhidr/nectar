@@ -1,5 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:courses/Core/extentions/double.dart';
+import 'package:courses/Core/extentions/string.dart';
 import 'package:courses/Core/utils/colors.dart';
 import 'package:flutter/material.dart';
 
@@ -17,16 +18,37 @@ class _AppCarouselState extends State<AppCarousel> {
   @override
   Widget build(BuildContext context) {
     return Stack(
+
       children: [
+        Expanded(
+          child: Row(
+            children: [
+              Image.asset('back arrow'.assetPNG,
+                  height: 10.height,
+                  width: 18.width,),
+
+                  Spacer(),
+                Image.asset('Vector'.assetPNG ,
+                    width: 18.width,
+                    height: 18.height,),
+
+
+
+            ],
+          ),
+        ),
+
         CarouselSlider(
           items:widget.images.map((e)
           {
+
+
              return ClipRRect(
                borderRadius: BorderRadius.circular(8.reduis) ,
-               child: Image.network(e ,
+               child: Image.asset(e ,
 
-                 fit: BoxFit.cover,
-                 width: double.infinity,
+                 width: 320.width,
+                 height: 200.height,
 
                ),
              );

@@ -1,5 +1,6 @@
 
 import 'package:courses/View/nav-bar/view.dart';
+import 'package:courses/view/product-details/view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'Core/utils/colors.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       minTextAdapt: true,
       splitScreenMode: true,
       child: MaterialApp(
-        home: NavBarView(),
+        home: ProductDetails(),
 
         theme: ThemeData(
           fontFamily: 'Poppins',

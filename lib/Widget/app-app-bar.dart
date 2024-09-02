@@ -20,9 +20,11 @@ class AppAppBar  extends StatelessWidget implements PreferredSizeWidget {
   final Widget? leading;
   final TextAlign ?textAlign;
 
+
   @override
   Widget build(BuildContext context) {
     return AppBar(
+
 
      title: title == null ? SizedBox() : AppText(
 
